@@ -17,7 +17,6 @@ public class App {
         display();
         while (!checkDraw() && !checkWin()) 
         {
-            System.out.print(counter);
             playerNumber = (counter% 2) +1;
             symbol = (playerNumber == 1) ? "  X " : "  O ";
             getInput();
